@@ -1,4 +1,3 @@
-// src/providers/ProviderA.js
 module.exports = {
   sendEmail: async (email) => {
     if (Math.random() < 0.5) throw new Error("ProviderA failed");
